@@ -9,14 +9,14 @@ card_deck = ["A", "2", "3", "4", "5", "6",
 card_suit = ["c", "d", "h", "s"]
 
 cards_in_hand = int(input("Enter the number of cards per hand: "))
-
-print(f"Possible card values are {card_deck}\n")
+print()
+print(f"Possible card values are {card_deck}.")
 
 print("Card suits are represented as follows: " 
 f"Clubs = {card_suit[0]}, " 
 f"Diamonds = {card_suit[1]}, " 
 f"Hearts = {card_suit[2]}, "
-f"Spades = {card_suit[3]} \n")
+f"Spades = {card_suit[3]}. \n")
 
 count = 1
 print("Drawing cards now!\n")
