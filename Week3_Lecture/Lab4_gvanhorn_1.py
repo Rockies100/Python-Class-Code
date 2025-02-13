@@ -9,7 +9,7 @@ card_deck = ["A", "2", "3", "4", "5", "6",
 card_suit = ["c", "d", "h", "s"]
 
 cards_in_hand = int(input("Enter the number of cards per hand: "))
-print()
+print() #Wanted to put a new line here, but wasn't sure if there was another way to do it outside of an empty print
 print(f"Possible card values are {card_deck}.")
 
 print("Card suits are represented as follows: " 

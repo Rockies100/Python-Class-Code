@@ -2,7 +2,7 @@
 #Author: Gavin Van Horn
 #Date: January 21st, 2025
 
-bill_total = int(input("Enter bill total:"))
+bill_total = float(input("Enter bill total:"))
 
 tip_15 = bill_total * 0.15
 tip_20 = bill_total * 0.2
