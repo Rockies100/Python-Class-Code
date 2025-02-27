@@ -21,7 +21,7 @@ def num_game():
 
             guess_count += 1
 
-        print(f"{correct_num} is correct! Congratulations!! You have won 'Guess my Number'. Thank you for playing!" )
+        print(f"{correct_num} is correct! Congratulations!! You have won 'Guess my Number'! Thank you for playing!" )
     elif play_game == 'N':
         print('Maybe next time...')
     else:
